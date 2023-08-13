@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon1, Icon2, Icon3 } from "./svg";
+import { Icon1, Icon2, Icon3, Icon4, Icon5, Icon6 } from "./svg";
 
 const Features = () => {
   return (
@@ -7,8 +7,8 @@ const Features = () => {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-10 md:gap-y-40 lg:gap-y-40">
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
             <div>
-              <div className="bg-blue-500 max-w-min ml-6  b-2 rounded-lg p-1">
-                <Icon1 className='w-10'/>
+              <div className="bg-blue-500 max-w-min ml-6  b-2 rounded-3xl p-1">
+                <Icon1 className='w-8'/>
               </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Easier Work Organization</div>
@@ -21,9 +21,9 @@ const Features = () => {
         </div>
                <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <div>
-            <div className="bg-blue-500 max-w-min ml-6  b-2 rounded-lg p-1">
+            <div className="bg-blue-500 max-w-min ml-6  b-2 rounded-3xl p-1">
 
-                <Icon1 className='w-10'/>
+                <Icon2 className='w-8'/>
               </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Fast Connection</div>
@@ -36,9 +36,9 @@ const Features = () => {
         </div>
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <div>
-        <div className="bg-blue-500 max-w-min ml-6  b-2 rounded-lg p-1">
+        <div className="bg-blue-500 max-w-min ml-6  b-2 rounded-3xl p-1">
 
-                <Icon1 className='w-10'/>
+                <Icon3 className='w-8'/>
               </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Streamlined Processes</div>
@@ -51,9 +51,9 @@ const Features = () => {
         </div>
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <div>
-        <div className="bg-blue-500 max-w-min ml-6  b-2 rounded-lg p-1">
+        <div className="bg-blue-500 max-w-min ml-6  b-2 rounded-3xl p-1">
 
-                <Icon1 className='w-10'/>
+                <Icon4 className='w-8'/>
               </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Easier Integrations</div>
@@ -66,9 +66,9 @@ const Features = () => {
         </div>
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <div>
-        <div className="bg-blue-500 max-w-min ml-6  b-2 rounded-lg p-1">
+        <div className="bg-blue-500 max-w-min ml-6  b-2 rounded-3xl p-1">
 
-                <Icon1 className='w-10'/>
+                <Icon5 className='w-8'/>
               </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Marketing Analytics</div>
@@ -81,9 +81,9 @@ const Features = () => {
         </div>
         <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <div>
-        <div className="bg-blue-500 max-w-min ml-6  b-2 rounded-lg p-1">
+        <div className="bg-blue-500 max-w-min ml-6  b-2 rounded-3xl p-1">
 
-                <Icon1 className='w-10'/>
+                <Icon6 className='w-8'/>
               </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Workflow Builder</div>
