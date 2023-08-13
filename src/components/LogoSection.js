@@ -1,5 +1,5 @@
 import React from 'react'
-import { CL1, CL2, CL3, CL4, CL5, CL6 } from './svg'
+import { CLL1, CLL2, CL3, CL4, CL5, CL6 } from './svg'
 
 const LogoSection = () => {
   return (
@@ -12,8 +12,8 @@ const LogoSection = () => {
       </div>
       <div className='flex items-center justify-center flex-col space-y-6 space-x-4 md:flex-row md:flex-wrap lg:flex-nowrap'>
 
-        <CL1 className='w-40'/>
-        <CL2 className='w-40'/>
+        <CLL1 className='w-40'/>
+        <CLL2 className='w-40'/>
         <CL3 className='w-40'/>
         <CL4 className='w-40'/>
         <CL5 className='w-40'/>

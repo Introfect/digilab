@@ -18,7 +18,7 @@ const Testimonial = () => {
       <div>
         <p className="text-2xl py-2 md:py-8 px-2 mx-2 max-w-5xl">
           Thank you for making it painless, pleasant and most of all hassle
-          free! I love LookScout. I can't say enough about LookScout. Great job,
+          free! I love LookScout. I cannot say enough about LookScout. Great job,
           I will definitely be ordering again!
         </p>
       </div>

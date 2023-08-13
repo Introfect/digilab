@@ -8,7 +8,7 @@ const Blogpost = () => {
     useEffect(()=>{
         const med=blogpostData.slice(0,2)
         setMed(med)
-    })
+    },[])
   return (
     <div className="text-black">
       <div className="py-16 px-8 mx-4 flex flex-col items-center justify-center">
@@ -20,9 +20,9 @@ const Blogpost = () => {
         </p>
       </div>
       <div className=" hidden md:flex md:items-center md:justify-center lg:hidden space-x-4 px-5">
-      {med.map((item) => {
+      {med.map((item,index) => {
         return (
-          <div>
+          <div key={index}>
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
               <div className="h-40">
                 <img
@@ -50,10 +50,9 @@ const Blogpost = () => {
       })}
       </div>
       <div className="flex flex-col md:hidden lg:flex lg:flex-row items-center justify-center space-x-4 item">
-      {blogpostData.map((item) => {
-        console.log(item.img);
+      {blogpostData.map((item,index) => {
         return (
-          <div>
+          <div key={index}>
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
               <div className="h-40">
                 <img
